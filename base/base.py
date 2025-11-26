@@ -13,3 +13,6 @@ class BaseShibulim:
         return roms
     def sum_of_beads(self):
         beads=0
+        for i in self.building:
+            beads+=i.sum_of_beads()
+        return beads
