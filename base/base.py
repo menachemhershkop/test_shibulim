@@ -1,4 +1,5 @@
 from base.bulding import Building
+from solider.solider import Solider
 
 
 class BaseShibulim:
